@@ -21,7 +21,7 @@
 <div align="center">
 
   [![license](https://img.shields.io/github/license/galactic-embassy/space-debris?color=green&label=license&style=flat)](LICENSE.md)
-  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.geoid.org)](https://www.geoid.org)
+  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.spacedebris.net)](https://www.spacedebris.net)
 
   ![python](https://img.shields.io/pypi/pyversions/space-debris?color=blue&label=python&style=flat)
   ![stars](https://img.shields.io/github/stars/galactic-embassy/space-debris?color=blue&label=stars&style=flat)
@@ -55,8 +55,9 @@
 
 ...
 
-https://www.zotero.org/groups/4602256/galactic
-
+Space Debris
+- https://bl.ocks.org/bwswedberg/29bda412413335b705c434e8a0af1f50
+- https://github.com/dsuarezv/satellite-tracker
 
 ## Authors
 
@@ -65,13 +66,13 @@ The [Galactic Embassy](https://www.galacticembassy.com/) is Earth's envoy to the
 
 ## Contributing
 
-We'd love for you to contribute and to make **Space Manifesto** even better than it is today!
+We'd love for you to contribute and to make **Space Debris** even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
 
 ## License
 
-Except where otherwise noted, the **Space Manifesto** is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
+Except where otherwise noted, **Space Debris** is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
 
 
 ## Disclaimer
