@@ -43,6 +43,7 @@
 - [About](#about)
 - [Authors](#authors)
 - [Contributing](#contributing)
+- [Resources](#resources)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
@@ -53,11 +54,13 @@
 
 ## About
 
-...
+Space debris tracking software is a type of software used to track and monitor the movement of man-made objects in Earth's orbit. These objects can include defunct satellites, spent rocket stages, and other debris that can pose a risk to operational spacecraft and the International Space Station. The software uses data from a variety of sources, including ground-based radar and optical telescopes, to track the position and velocity of debris in near-real time.
 
-Space Debris
-- https://bl.ocks.org/bwswedberg/29bda412413335b705c434e8a0af1f50
-- https://github.com/dsuarezv/satellite-tracker
+The software can also be used to predict the future location of debris, which is important for mission planning and collision avoidance. It can also be used to analyze the density of debris in different regions of space, and to identify potential sources of debris, such as specific launch events or on-orbit explosions.
+
+Space debris tracking software is essential for maintaining the safety and security of space operations, and is used by government agencies, military organizations, and private companies around the world. As the amount of debris in Earth's orbit continues to grow, the importance of accurate and reliable space debris tracking software will only increase.
+
+
 
 ## Authors
 
@@ -69,6 +72,10 @@ The [Galactic Embassy](https://www.galacticembassy.com/) is Earth's envoy to the
 We'd love for you to contribute and to make **Space Debris** even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
+## Resources
+
+- https://bl.ocks.org/bwswedberg/29bda412413335b705c434e8a0af1f50
+- https://github.com/dsuarezv/satellite-tracker
 
 ## License
 
