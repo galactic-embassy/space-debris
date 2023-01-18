@@ -4,6 +4,10 @@
 <h1 align='center' style='border-bottom: none;'>Space Debris</h1>
 <h3 align='center'>Galactic Embassy</h3>
 
+<p align="center">
+    <img src="https://github.com/galactic-embassy/.assets/blob/5dc6064b08be3666fe0b76b14b4ecc71210d240f/image/galactic_embassy-space_debris-01.png" width="100%" height="100%" alt="Galactic Embassy Logo">
+</p>
+
 <br/>
 <div align="center">
   <a href="https://github.com/galactic-embassy/space-debris/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
