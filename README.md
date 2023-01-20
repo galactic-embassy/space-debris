@@ -27,7 +27,7 @@
   [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.spacedebris.net)](https://www.spacedebris.net)
   ![stars](https://img.shields.io/github/stars/galactic-embassy/space-debris?color=blue&label=stars&style=flat)
   ![forks](https://img.shields.io/github/forks/galactic-embassy/space-debris?color=blue&label=forks&style=flat)
-  ![sponsors](https://img.shields.io/github/sponsors/starling-cloud?color=blue&label=sponsors&style=flat)
+  ![sponsors](https://img.shields.io/github/sponsors/galactic-embassy?color=blue&label=sponsors&style=flat)
   ![contributors](https://img.shields.io/github/contributors/galactic-embassy/space-debris?color=blue&label=contributors&style=flat)
 
 </div>
