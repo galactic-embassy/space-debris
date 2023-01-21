@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="https://github.com/galactic-embassy/.assets/blob/086008d75557f9ce29e2a46dfdbcc3912b6443ce/logo/galactic_embassy_logo_light.png" width="20%" height="20%" alt="Galactic Embassy Logo">
+    <img src="https://galactic-embassy.github.io/.assets/image/logo/galactic_embassy_logo_light.png" width="20%" height="20%" alt="Galactic Embassy Logo">
 </p>
 <h1 align='center' style='border-bottom: none;'>Space Debris Network</h1>
 <h3 align='center'>Galactic Embassy</h3>
 
 <p align="center">
-    <img src="https://github.com/galactic-embassy/.assets/blob/5dc6064b08be3666fe0b76b14b4ecc71210d240f/image/galactic_embassy-space_debris-01.png" width="100%" height="100%" alt="Galactic Embassy Logo">
+    <img src="https://galactic-embassy.github.io/.assets/image/galactic_embassy-space_debris-01.png" width="100%" height="100%" alt="Galactic Embassy Logo">
 </p>
 
 <br/>
