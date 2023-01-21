@@ -5,15 +5,11 @@
 <h3 align='center'>Galactic Embassy</h3>
 
 <p align="center">
-    <img src="https://galactic-embassy.github.io/.assets/image/galactic_embassy-space_debris-01.png" width="100%" height="100%" alt="Galactic Embassy Logo">
+    <img src="https://galactic-embassy.github.io/.assets/image/galactic_embassy-space_debris-01.png" width="100%" height="100%" alt="Galactic Embassy Space Debris Banner">
 </p>
 
 <br/>
 <div align="center">
-  <a href="https://github.com/galactic-embassy/space-debris/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
-  |
-  <a href="https://github.com/galactic-embassy/space-debris/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Afeature-request%2CHelp+wanted+%F0%9F%AA%A7&template=feature_request.yml">Request a Feature</a>
-  |
   <a href="https://github.com/galactic-embassy/space-debris/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aquestion&template=question.yml">Ask a Question</a>
   |
   <a href="https://github.com/galactic-embassy/space-debris/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aenhancement&template=suggestion.yml">Make a Sugestion</a>
@@ -26,8 +22,6 @@
   [![license](https://img.shields.io/github/license/galactic-embassy/space-debris?color=green&label=license&style=flat)](LICENSE.md)
   [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.spacedebris.net)](https://www.spacedebris.net)
   ![stars](https://img.shields.io/github/stars/galactic-embassy/space-debris?color=blue&label=stars&style=flat)
-  ![forks](https://img.shields.io/github/forks/galactic-embassy/space-debris?color=blue&label=forks&style=flat)
-  ![sponsors](https://img.shields.io/github/sponsors/galactic-embassy?color=blue&label=sponsors&style=flat)
   ![contributors](https://img.shields.io/github/contributors/galactic-embassy/space-debris?color=blue&label=contributors&style=flat)
 
 </div>
