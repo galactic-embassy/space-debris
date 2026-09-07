@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APOAPSIS · Orbital Debris Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Fraunces:opsz,wght@9..144,300;9..144,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="view"></canvas>
+
+    <header class="hud hud-top">
+      <div class="brand">
+        <span class="brand-mark">◐</span>
+        <div>
+          <h1>APOAPSIS</h1>
+          <p>Live orbital debris tracker</p>
+        </div>
+      </div>
+      <div class="clock" id="clock">— UTC</div>
+    </header>
+
+    <aside class="hud hud-side">
+      <div class="stat">
+        <div class="stat-label">Status</div>
+        <div class="stat-value" id="status">Idle</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Tracking</div>
+        <div class="stat-value" id="count">0</div>
+        <div class="stat-sub">objects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Render</div>
+        <div class="stat-value"><span id="fps">0</span> <small>fps</small></div>
+      </div>
+      <div class="legend">
+        <div class="legend-row"><span class="dot leo"></span>LEO &lt; 2 000 km</div>
+        <div class="legend-row"><span class="dot meo"></span>MEO 2 000–30 000</div>
+        <div class="legend-row"><span class="dot geo"></span>GEO ~ 35 786</div>
+        <div class="legend-row"><span class="dot heo"></span>HEO &gt; 40 000</div>
+      </div>
+    </aside>
+
+    <footer class="hud hud-foot">
+      <span>Data: <a href="https://celestrak.org/">CelesTrak</a> active catalog</span>
+      <span>Drag to rotate · Scroll to zoom</span>
+    </footer>
+
+    <div class="error" id="error"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

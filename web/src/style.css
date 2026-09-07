@@ -1,0 +1,207 @@
+/*
+  APOAPSIS — a quiet mission-ops aesthetic.
+  Dark plasma background, hairline rules, JetBrains Mono for telemetry,
+  Fraunces for the wordmark so it doesn't read like a Vercel landing page.
+*/
+
+:root {
+  --bg: #07080c;
+  --panel: rgba(12, 14, 22, 0.78);
+  --rule: rgba(180, 200, 230, 0.12);
+  --text: #e6ecf3;
+  --muted: #7a8492;
+  --accent: #ff6a55;     /* LEO coral, mirrored in shader */
+  --leo: #ff6a55;
+  --meo: #ffc759;
+  --geo: #8ce0fa;
+  --heo: #b89df3;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  overflow: hidden;
+  font-feature-settings: 'tnum' 1, 'ss01' 1;
+}
+
+#view {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(40, 30, 70, 0.35), transparent 50%),
+    radial-gradient(ellipse at 80% 90%, rgba(20, 50, 80, 0.3), transparent 55%),
+    var(--bg);
+}
+#view:active { cursor: grabbing; }
+
+.hud {
+  position: fixed;
+  z-index: 10;
+  pointer-events: none;
+}
+.hud * { pointer-events: auto; }
+
+/* ---- Top bar ---- */
+.hud-top {
+  top: 0; left: 0; right: 0;
+  padding: 22px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.55), transparent);
+}
+
+.brand { display: flex; gap: 14px; align-items: center; }
+.brand-mark {
+  font-size: 28px;
+  color: var(--accent);
+  filter: drop-shadow(0 0 10px rgba(255, 106, 85, 0.6));
+}
+.brand h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.18em;
+  line-height: 1;
+}
+.brand p {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.clock {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  padding: 6px 12px;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  backdrop-filter: blur(8px);
+}
+
+/* ---- Side panel ---- */
+.hud-side {
+  top: 100px;
+  left: 28px;
+  width: 240px;
+  padding: 24px 20px;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.stat-label {
+  font-size: 9px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.stat-value {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+}
+.stat-value small {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: 2px;
+}
+.stat-sub {
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.legend {
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 8px currentColor;
+}
+.dot.leo { background: var(--leo); color: var(--leo); }
+.dot.meo { background: var(--meo); color: var(--meo); }
+.dot.geo { background: var(--geo); color: var(--geo); }
+.dot.heo { background: var(--heo); color: var(--heo); }
+
+/* ---- Footer ---- */
+.hud-foot {
+  bottom: 0; left: 0; right: 0;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: linear-gradient(to top, rgba(0,0,0,0.55), transparent);
+}
+.hud-foot a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+.hud-foot a:hover { border-color: var(--accent); }
+
+/* ---- Error overlay ---- */
+.error {
+  display: none;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: 440px;
+  padding: 24px 28px;
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .hud-side {
+    top: auto;
+    bottom: 70px;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .legend { width: 100%; }
+}
